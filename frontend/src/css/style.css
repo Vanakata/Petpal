@@ -1,0 +1,23 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.navigation-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.navigation-menu {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.nav-options {
+    display: inline-block;
+    margin-right: 10px;
+}

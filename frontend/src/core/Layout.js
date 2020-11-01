@@ -1,6 +1,8 @@
 import React from "react";
 import Menu from "./Menu"
 
+let homeUrl = "http://localhost:3000/"
+
 const Layout = ({ title = "Title", description = "Description", className, children }) =>
     <div>
         <div>
@@ -9,7 +11,9 @@ const Layout = ({ title = "Title", description = "Description", className, child
             <div>
                 <div>
                     <div>
-                        <img src={require('../images/mypetpal-logo.png')} alt="website logo"/>
+                        <a href={homeUrl}>
+                        <img src={require('../images/mypetpal-logo.png')} alt="website logo" className="logo"/>
+                        </a>
                     </div>
                 </div>
             </div>
